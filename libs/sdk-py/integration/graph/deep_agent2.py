@@ -84,7 +84,7 @@ _researcher: SubAgent = {
 }
 
 
-graph = create_deep_agent(
+graph2 = create_deep_agent(
     model=_supervisor_model,
     system_prompt=(
         "You are a supervisor coordinating a researcher subagent. "
